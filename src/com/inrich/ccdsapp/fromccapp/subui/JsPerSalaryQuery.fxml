@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="1108.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.inrich.ccdsapp.fromccapp.subui.QueryPresenter">
+   <children>
+      <Label layoutX="1.0" layoutY="15.0" prefHeight="23.0" prefWidth="55.0" text="身份证" />
+      <TextField fx:id="certno" layoutX="69.0" layoutY="9.0" />
+      <Button fx:id="query" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" onAction="#query" text="查询" />
+      <Label layoutX="322.0" layoutY="15.0" prefHeight="23.0" prefWidth="75.0" text="起始日期" />
+      <DatePicker fx:id="startDate" layoutX="397.0" layoutY="9.0" />
+      <Label layoutX="684.0" layoutY="15.0" prefHeight="23.0" prefWidth="75.0" text="终止日期" />
+      <DatePicker fx:id="endDate" layoutX="759.0" layoutY="9.0" />
+   </children>
+</AnchorPane>

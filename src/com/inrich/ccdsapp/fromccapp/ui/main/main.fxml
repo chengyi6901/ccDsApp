@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.inrich.ccdsapp.fromccapp.ui.main.MainPresenter">
+   <center>
+      <ScrollPane prefViewportHeight="631.0" prefViewportWidth="1280.0">
+         <content>
+            <TextFlow fx:id="outArea" BorderPane.alignment="CENTER" />
+         </content>
+      </ScrollPane>
+   </center>
+   <top>
+      <SplitPane dividerPositions="0.5116279069767442" orientation="VERTICAL" prefHeight="217.0" prefWidth="1280.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="44.0" prefWidth="968.0">
+               <children>
+                  <Label layoutX="6.0" layoutY="11.0" text="个人基本信息" />
+                  <ChoiceBox fx:id="personBasicInfoCategory" layoutX="115.0" layoutY="5.0" prefWidth="150.0" />
+                  <Label layoutX="314.0" layoutY="11.0" prefHeight="23.0" prefWidth="127.0" text="个人其他信息" />
+                  <ChoiceBox fx:id="personOtherInfoCategory" layoutX="424.0" layoutY="5.0" prefWidth="150.0" />
+                  <Label layoutX="639.0" layoutY="11.0" text="信息验证" />
+                  <ChoiceBox layoutX="716.0" layoutY="5.0" prefWidth="150.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="queryArea" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+   </top>
+</BorderPane>

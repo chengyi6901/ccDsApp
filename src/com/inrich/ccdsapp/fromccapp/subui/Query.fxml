@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.inrich.ccdsapp.fromccapp.subui.QueryPresenter">
+   <children>
+      <Label layoutY="15.0" prefHeight="23.0" prefWidth="55.0" text="姓名" />
+      <Label layoutX="300.0" layoutY="15.0" prefHeight="23.0" prefWidth="55.0" text="身份证" />
+      <TextField fx:id="name" layoutX="41.0" layoutY="9.0" />
+      <TextField fx:id="certno" layoutX="364.0" layoutY="9.0" />
+      <Button fx:id="query" layoutX="12.0" layoutY="51.0" mnemonicParsing="false" onAction="#query" text="查询" />
+   </children>
+</AnchorPane>
